@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Games - Main page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1{
+            font-size: 60px;
+            text-align: center;
+            padding:20px;
+            height: auto;
+        }
+        #db{
+            height: 420px;
+        }
+        #stard{
+            height: 450px;
+        }
+        #pocket{
+            height: 450px;
+        }
+        #mamaco{
+            height: 420px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="">WikiGames</a>
+            <ul class="navlist">
+                <li><a href="mainPage.html">Inicio</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="sobre nos.html">Sobre nós</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <form class="pesquisa">
+                <input class="barraDePesquisa" type="search" placeholder="search" aria-label="search" >
+                <button class="butProcurar" type="submit">Procurar</button>
+            </form>
+        </nav>
+    </header>
+    <div class="caixaEmAlta">
+    <h1>Em alta!</h1>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio.btn" id="radio1">
+            <input type="radio" name="radio.btn" id="radio2">
+            <input type="radio" name="radio.btn" id="radio3">
+            <input type="radio" name="radio.btn" id="radio4">
+
+            <div class="Slide first">
+                <img src="/imagens/db Spark.jpg" id="db">
+            </div>
+            <div class="Slide">
+                <img src="/imagens/stardew.jpg" id="stard">
+            </div>
+            <div class="Slide">
+                <img src="/imagens/pkm.jpg" id="pocket">
+            </div>
+            <div class="Slide">
+                <img src="/imagens/mamaco.jpg" id="mamaco">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+
+            </div>
+        </div>
+        <div class="manual-nav">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
